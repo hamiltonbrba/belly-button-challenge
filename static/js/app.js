@@ -56,6 +56,7 @@ function buildCharts(sample) {
       hovermode: 'closest',
       xaxis: { title: "OTU ID" },
     };
+    
     // Render the Bubble Chart
     Plotly.newPlot('bubble', [bubbleTrace], bubbleLayout);
 
@@ -114,8 +115,10 @@ function init() {
 
 // Function for event listener
 function optionChanged(newSample) {
+  
   // Build charts and metadata panel each time a new sample is selected
-
+  buildCharts(newSample);  // Update charts with the newly selected sample
+  buildMetadata(newSample);  // Update metadata with the newly selected sample
 }
 
 // Initialize the dashboard
