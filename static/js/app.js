@@ -14,7 +14,8 @@ function buildMetadata(sample) {
 
     // Append key-value pairs from the metadata to the panel
     Object.entries(result).forEach(([key, value]) => {
-      panel.append("h6").text(`${key}: ${value}`);
+      let upperKey = key.toUpperCase();  // Capitalize the key only
+      panel.append("h6").text(`${upperKey}: ${value}`);
     });
   });
 }
