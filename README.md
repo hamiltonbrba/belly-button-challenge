@@ -1,6 +1,7 @@
 # belly-button-challenge
 
 # Belly Button Biodiversity Dashboard
+
 ## Features
 
 - A dropdown menu to select test subject IDs.
@@ -39,3 +40,11 @@
 │   ├── js
 │   │   └── app.js      # JavaScript for handling charts and data
 └── README.md           # This readme file
+```
+
+## Code Sources
+
+- The code for this project was written using a combination of custom JavaScript and external libraries such as **D3.js** and **Plotly.js**.
+- The main script for data processing and chart creation is located in the `static/js/app.js` file.
+- The dataset used for the visualizations is accessed from the URL: [Belly Button Biodiversity Data](https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json).
+
