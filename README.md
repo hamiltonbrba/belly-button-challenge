@@ -15,7 +15,7 @@
 ### Prerequisites
 
 - This is a static web application, so no special software is required, just a web browser.
-- You can access the app via GitHub Pages: [Belly Button Biodiversity](https://github.com/hamiltonbrba/belly-button-challenge).
+- You can access the app via GitHub Pages: [Belly Button Biodiversity](https://hamiltonbrba.github.io/belly-button-challenge/).
 
 ### Running Locally
 
